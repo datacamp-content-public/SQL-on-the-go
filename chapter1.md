@@ -1,9 +1,9 @@
 ---
-title: 'Template Chapter 1'
+title: 'Selecting Data in SQL'
 description: 'This is a template chapter.'
 ---
 
-## Ex 1.1
+## Column Selection
 
 ```yaml
 type: NormalExercise
@@ -16,10 +16,10 @@ skills: 1
 Do some data science.
 
 `@instructions`
-
+Here, We learn simply to show the table
 
 `@hint`
-
+use * for select all.
 
 `@pre_exercise_code`
 ```{python}
@@ -28,12 +28,21 @@ Do some data science.
 
 `@sample_code`
 ```{sql}
+/* 
+select *
+from table
+*/
+
+
+
+
 
 ```
 
 `@solution`
 ```{sql}
-
+SELECT *
+FROM table
 ```
 
 `@sct`
