@@ -42,7 +42,7 @@ from table
 `@solution`
 ```{sql}
 SELECT *
-FROM table
+FROM given_table
 ```
 
 `@sct`
