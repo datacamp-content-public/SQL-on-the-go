@@ -41,11 +41,10 @@ from table
 
 `@solution`
 ```{sql}
-SELECT *
-FROM given_table
+SELECT title FROM films;
 ```
 
 `@sct`
 ```{python}
-
+Ex().check_column('title').has_equal_value()
 ```
